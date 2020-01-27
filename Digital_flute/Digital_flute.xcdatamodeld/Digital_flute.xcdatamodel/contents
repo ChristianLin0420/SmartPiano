@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="First_10" representedClassName="First_10" syncable="YES" codeGenerationType="class">
+        <attribute name="first_10_notes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Melody" representedClassName="Melody" syncable="YES" codeGenerationType="class">
+        <attribute name="first_10_notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="melody" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES" codeGenerationType="class">
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Pure_Note" representedClassName="Pure_Note" syncable="YES" codeGenerationType="class">
+        <attribute name="note_for_compare" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Songs" representedClassName="Songs" syncable="YES" codeGenerationType="class">
+        <attribute name="song_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Melody" positionX="-63" positionY="-9" width="128" height="75"/>
+        <element name="Note" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="Pure_Note" positionX="-54" positionY="0" width="128" height="60"/>
+        <element name="Songs" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="First_10" positionX="-54" positionY="0" width="128" height="60"/>
+    </elements>
 </model>
